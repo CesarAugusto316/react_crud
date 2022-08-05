@@ -12,7 +12,7 @@ const initialState: LoginState = {
   email: '',
 };
 
-export const FormLogin: FC = () => {
+const FormLogin: FC = () => {
   const { setToken } = useTodosContext();
   const navigate = useNavigate();
   const [userInput, setUserInput] = useState<LoginState>(initialState);
@@ -66,3 +66,5 @@ export const FormLogin: FC = () => {
     </form>
   );
 };
+
+export default FormLogin;

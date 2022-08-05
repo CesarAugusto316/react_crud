@@ -5,12 +5,7 @@ import { RestAPI } from './RestAPI.class';
 
 
 export class TodosService extends RestAPI {
-  /**
-  * todosService instance should read a value from
-  * Context or a variable in the local component not
-  * from localStorage. Change that!
-  */
-
+  //
   async getAll(): Promise<ToDo[]|any> {
     return this.get('/todos')
       .then((todos) => {

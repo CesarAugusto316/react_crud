@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import { useTodosContext, todosService } from '../../context';
 
 
-export interface TodoProps {
+interface TodoProps {
   id: number,
   description: string,
   name: string

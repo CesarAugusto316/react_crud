@@ -1,9 +1,10 @@
 .form-login {
+  margin: 0 auto;
   margin-top: 5rem;
-  width: 34rem;
+  max-width: 34rem;
   display: flex;
   flex-direction: column;
-  gap: 2.6rem;
+  gap: 2rem;
   background-color: var(--base-300);
   padding: 2.6rem;
   border-radius: 1rem;
@@ -24,7 +25,6 @@
   padding: 1.4rem;
   font-size: 1.6rem;
   border-radius: 1rem;
-  display: block;
   border: 1px solid var(--base-drop-shadow);
 }
 

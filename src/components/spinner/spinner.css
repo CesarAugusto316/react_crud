@@ -19,13 +19,21 @@
 .font-3 {
   font-size: 3rem;
 }
-
 .font-4 {
   font-size: 4rem;
 }
-
 .font-6 {
   font-size: 6rem;
+}
+
+.m-0 {
+  margin-top: 0rem;
+}
+.m-6 {
+  margin-top: 6rem;
+}
+.m-14 {
+  margin-top: 14rem;
 }
 
 @-webkit-keyframes rotate-center {

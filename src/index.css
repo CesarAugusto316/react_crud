@@ -94,11 +94,7 @@ a {
 }
 
 .main {
-  max-width: 48rem;
-}
-
-.main > *:first-child {
-  margin-bottom: 5rem;
+  width: 48rem;
 }
 
 @media screen and (max-width: 900px) {

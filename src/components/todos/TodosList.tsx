@@ -18,7 +18,7 @@ export const TodosList: FC = () => {
   }, []);
 
   if (isLoading) {
-    return <Spinner size="font-6" />;
+    return <Spinner size="font-6" marginTop="m-6" />;
   }
   return (
     <XyzTransitionGroup

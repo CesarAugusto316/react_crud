@@ -5,7 +5,7 @@ import './welcome.css';
 import { loginService } from '../../context';
 
 
-export const Welcome: FC = () => {
+const Welcome: FC = () => {
   const [isLoading, setIsloading] = useState(true);
   const [userProfile, setUserProfile] = useState({} as UserProfile);
 
@@ -31,3 +31,5 @@ export const Welcome: FC = () => {
     </div>
   );
 };
+
+export default Welcome;
